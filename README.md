@@ -1,12 +1,11 @@
 # Module-19-Challenge
 
-![](https://img.shields.io/badge/Created%20by-Brandon%20Krussow-blue?style=for-the-badge)  
-![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-if-env-red?style=flat-square&logo=npm) ![](https://img.shields.io/badge/License-MIT-yellow?style=flat-square) 
+![](https://img.shields.io/badge/Created%20by-Brandon%20Krussow-blue?style=for-the-badge) ![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-if-env-red?style=flat-square&logo=npm) ![](https://img.shields.io/badge/License-MIT-yellow?style=flat-square) 
 
 ## Description
 
 - This code displays a text editor called "JATE" (Just Another Text Editor).
-- I wanted to create a simple text editor that runs in the browser and meets PWA criteria (Progressive Web Application).
+- I wanted to create a simple text editor that runs in the browser and meets PWA (Progressive Web Application) criteria (uses a web manifest file, is served using https, and registers a service worker with a fetch event handler). 
 - I coded JavaScript using Express & If-Env. I deployed using Heroku. 
 - Given more time I would include concise comments, detailed error messages, and thorough tests.
 
