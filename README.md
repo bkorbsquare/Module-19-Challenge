@@ -1,44 +1,55 @@
-Progressive Web Applications (PWA) Challenge: Text Editor
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+# Module-19-Challenge
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+![](https://img.shields.io/badge/Created%20by-Brandon%20Krussow-blue?style=for-the-badge)  
+![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-if-env-red?style=flat-square&logo=npm) ![](https://img.shields.io/badge/License-MIT-yellow?style=flat-square) 
 
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+## Description
 
-You will deploy this full-stack application to Heroku using the Heroku Deployment Guide on The Full-Stack BlogLinks to an external site..
+- This code displays a text editor called "JATE" (Just Another Text Editor).
+- I wanted to create a simple text editor that runs in the browser and meets PWA criteria (Progressive Web Application).
+- I coded JavaScript using Express & If-Env. I deployed using Heroku. 
+- Given more time I would include concise comments, detailed error messages, and thorough tests.
 
-IMPORTANT
-Make sure to clone the starter code repository and make your own repository with the starter code. Do not fork the starter code repository!
+## Installation
 
-Before you start, clone the starter codeLinks to an external site..
+On GitHub.com, navigate to the main page of the repository. Above the list of files, click 'Code'. Click 'Open with GitHub Desktop' to clone and open the repository. Follow the prompts in GitHub Desktop to complete the clone. Open the code in your code editor. Open your terminal and run 'npm i' to install the necessary dependencies. Run 'npm start' to start the application. 
 
-User Story
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-Acceptance Criteria
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
+## Usage
+
+Use this project as a reference when building a text editor.
+
+![image](/assets/Screenshot%202023-03-29%20154723.jpg)
+
+## Deployed Site
+
+https://module-19-challenge.herokuapp.com/ 
+
+## Credits
+
+Special thanks to AskBCS Learning Assistant for all their support (https://bootcampspot.com/askbcs/support). Badges from: https://github.com/badges/shields 
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Brandon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
